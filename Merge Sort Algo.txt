@@ -1,0 +1,9 @@
+Merge Sort (arr[] ,l,r)
+Find the middle point to divide the array into 2 halves
+  middle m=l+(r-l)/2
+Call Merge Sort for first half:
+   Call merge sort (arr,l,m)
+Call Merge Sort for second half:
+   Call merge sort (arr,m+1,r)
+Merge the two halves sorted in step 2 and step 3:
+  Call merge(arr,l,m,r)
